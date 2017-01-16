@@ -54,6 +54,11 @@
         <Label layoutX="9.0" layoutY="137.0" text="CIKs:" />
         <Label layoutX="141.0" layoutY="137.0" text="Disclosure types:" wrapText="false" />
         <Label layoutX="275.0" layoutY="137.0" prefHeight="16.0" prefWidth="111.0" text="Disclosure Accepted:" wrapText="true" />
+        <Label fx:id="progress_area" alignment="CENTER" disable="true" layoutX="63.0" layoutY="168.0" prefHeight="115.0" prefWidth="275.0" text="" textAlignment="CENTER" visible="false">
+          <font>
+            <Font name="System Bold" size="50.0" />
+          </font>
+        </Label>
       </children>
     </AnchorPane>
   </children>
